@@ -1,0 +1,14 @@
+<div class="container-fluid">
+{% if city %}
+  <p>City : {{city}}</p>
+  <p>Country : {{country}}</p>
+  <p>Weather : {{weather}}</p>
+  <p>Temprature : {{temprature}}℃ </p>
+  <p>Minimum Temprature : {{min_temp}}℃</p>
+  <p>Maximum Temprature : {{max_temp}}℃</p>
+  <p>Humidity : {{humidity}}%</<p>
+  <p>Wind Speed : {{wind}}Km/hr</p>
+{% else %}
+  <p>{{result}}</p>
+{% endif %}
+</div>
